@@ -1,0 +1,94 @@
+{
+    "name": "Justin Vincent",
+    "email": "justinvf@gmail.com",
+    "location": "Centerville, OH",
+
+    "jobs": [
+	{
+	    "company": "Everyday Robots (Alphabet/X)",
+	    "time": "2017 Q3 - Present",
+	    "title": "Staff Software Engineer",
+	    "blurb": "Tech lead, owning large components of our ML data platform.",
+	    "items": [
+		"Wrote the uploading and processing framework used to index robot log data (text, image, sensors) and do downstream offline processing.",
+		"Lead development on the system that serves robot logs from cloud APIs to our robot visualization tool.",
+		"Worked cross functionally with Robotics at Google to drive org-wide platform adoptions.",
+		"Created our human annotation framework which drove our perception and RL projects. The system collected XX million human annotations.",
+		"Created systems to flexibly create fresh nightly training/evaluation datasets, which were used in multiple ML projects across Alphabet.",
+		"Lead development of the evaluation tools used daily by the perception team to asses model performance.",
+		"Wrote low-level systems code for logging and time synchronization, both on robot and in simulation."
+	    ]
+	},
+	{
+	    "company": "Google Fiber",
+	    "time": "2014 Q3 - 2017 Q2",
+	    "title": "Senior Software Engineer",
+	    "blurb": "Tech Lead/Manager leading a small team of engineers and analysts on projects to increase customer happiness.",
+	    "items": [
+		"Led a team of 4 to implement a real-time AI assistant for customer service agents to help them answer customer questions.",
+		"Built a user activity services to detect customer presence for TV ad insertion.",
+		"Owned multiple other data pipelines consumed by analysts across Fiber."
+	    ]
+	},
+	{
+	    "company": "Algorithm Shop",
+	    "time": "2013 Q1 - 2014 Q3",
+	    "title": "Owner",
+	    "blurb": "Started my company Algorithm Shop where I did contract work across a variety of industries.",
+	    "items": [
+		"Built text classifiers for an online marketplace startup.",
+		"Implemented a database for querying structural and geometric attributes of proteins for a scientific software company.",
+		"Worked in Libya to build out a system for handling sensitive elections data for their 2014 elections on a UN project.",
+		"Built a proof of concept real-time aggregation framework for a smart-meter company."
+	    ]
+	},
+	{
+	    "company": "Obama For America",
+	    "time": "2011 Q2 - 2012 Q4",
+	    "title": "Senior Software Engineer",
+	    "blurb": "One of the initial members in the tech team for Obama’s 2012 reelection campaign.",
+	    "items": [
+		"Wrote a voter/donor record matching system to merge voters across databases to give a unified view of a voter for modeling, supporting both country-wide merges of all voters as well as a real-time service for single voter lookup.",
+"Core member of \"Project Narwhal\", the campaigns primary organizing API. Created the systems for real-time metric reporting to let us understand the state of our field organizing operation."
+	    ]
+	},
+	{
+	    "company": "Google",
+	    "time": "2007 Q4 - 2011 Q2",
+	    "title": "Software Engineer",
+	    "blurb": "I interned in Google Books. As a full timer I worked on the Google Analytics Backend and AdWords Payment Fraud.",
+	    "items": [
+		"Wrote a matching system to surface links between a payment fraudster's closed accounts and their similar looking accounts that were still active.",
+		"Completed various signal engineering projects within the core \"Risk Engine\" used to detect payment fraud.",
+		"Wrote testing tools for the Google Analytics Backend team, both for large-scale diff-testing as well as for smaller scale unit testing.",
+		"In Google Books I worked on finding links where one book is quoting another. Listed as a co-inventor on patent US20090055389."
+	    ]
+	}
+    ],
+    "education": {
+	"schools": [
+	    {
+	    "name": "University of Washington",
+	    "degrees": [
+		{
+		    "degree": "B.S. Computer Science",
+		    "items":  [
+			"Coauthor of a FOCS paper  with James R. Lee",
+			"Researched particle filter approaches to WiFi based localization with Dieter Fox",
+			"Took graduate courses in algorithms, complex analysis, robotics, and complexity",
+			"TA for digital design (hardware), intro programming, and discrete mathematics"
+		    ]
+		},
+		{
+		    "degree": "B.A. Mathematics",
+		    "items": [
+			"Worked on numerical modeling of stochastic processes with Stephen Rhode.",
+			"Took graduate courses in complex analysis",
+			"Studied math in Moscow for a semester"
+		    ]
+		}
+	    ]
+	    }
+	]
+    }
+}
