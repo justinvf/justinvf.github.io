@@ -46,7 +46,7 @@
 	    "company": "Obama For America",
 	    "time": "2011 Q2 - 2012 Q4",
 	    "title": "Senior Software Engineer",
-	    "blurb": "One of the initial members in the tech team for Obama’s 2012 reelection campaign.",
+	    "blurb": "One of the initial members in the tech team for Obama's 2012 reelection campaign.",
 	    "details": [
 		"Wrote a voter/donor record matching system to merge voters across databases to give a unified view of a voter for modeling, supporting both country-wide merges of all voters as well as a real-time service for single voter lookup.",
 "Core member of \"Project Narwhal\", the campaigns primary organizing API. Created the systems for real-time metric reporting to let us understand the state of our field organizing operation."

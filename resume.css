@@ -1,0 +1,77 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap             : 5px;
+
+    grid-template-areas:
+	"name contact"
+	"experience experience"
+	"education education"
+}
+
+.experience {
+    grid-area: experience;
+}
+
+.job {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+	"jobdate company"
+	"logo title"
+	"logo blurb"
+	"logo description";
+}
+
+.jobdate {
+    grid-area: jobdate;
+}
+
+.company {
+    grid-area: company;
+}
+.role {
+    grid-area: role;
+}
+.blurb {
+    grid-area: blurb;
+}
+.details {
+    grid-area: details;
+}
+
+
+.name {
+    grid-area: name;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.headshot {
+    grid-area: headshot;
+}
+
+.experience {
+    grid-area: experience;
+}
+
+.education {
+    grid-area: education;
+}
+
+.wrapper {
+    padding        : 0;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+}

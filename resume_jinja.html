@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ name }}'s Resume</title>
+    <link rel="stylesheet" type="text/css" href="resume.css?cache=nope">
+  </head>
+
+  <body>
+    <main class="wrapper">
+    <article class="resume">
+
+      <section class="name">
+	{{ name }}
+      </section>
+
+      <section class="contact">
+	<ul>
+	  <li><a href="mailto:{{ email }}">{{ email }}</a></li>
+	  <li>{{ location }}</li>
+	</ul>
+      </section>
+
+      <section class="experience">
+	<h2>Experience</h2>
+	{% for job in jobs %}
+	<section class="job">
+          <section class="jobdate">{{ job.time }}</section>
+          <section class="company">{{ job.company }}</section>
+	  <section class="title">{{ job.title }}</section>
+	  <section class="blurb">{{ job.blurb }}</section>
+	  <section class="description">
+	    <ul>
+              {% for detail in job.details  %}
+              <li> {{ detail }} </li>
+              {% endfor %}
+            </ul>
+	  </section>
+	</section>
+	{% endfor %}
+      </section>
+
+      <section class="education">
+	<h2>Education</h2>
+	{% for school in education.schools %}
+        <h3>{{ school.name }}</h3>
+        {{ school.gpa }} GPA
+        {% for degree in school.degrees  %}
+        <h3> {{ degree.degree }} </h3>
+        <ul>
+          {% for detail in degree.details  %}
+          <li>{{ detail }}</li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+	{% endfor %}
+      </section>
+    </article>
+  </main>
+  </body>
+</html>
