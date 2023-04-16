@@ -3,6 +3,12 @@ body {
   font-family:"Calibri", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    border-bottom:1px dotted;
+    color: inherit; 
+}
+
 .resume {
     width: 8in;
     break-inside: auto;
