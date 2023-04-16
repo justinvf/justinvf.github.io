@@ -2,11 +2,10 @@
 <html>
   <head>
     <title>{{ name }}'s Resume</title>
-    <link rel="stylesheet" type="text/css" href="resume.css?cache=nope">
+    <link rel="stylesheet" type="text/css" href="resume.css?cache=nope3">
   </head>
 
   <body>
-    <main class="wrapper">
     <article class="resume">
 
       <section class="name">
@@ -17,19 +16,18 @@
 	<ul>
 	  <li><a href="mailto:{{ email }}">{{ email }}</a></li>
 	  <li>{{ location }}</li>
-	</ul>
+    	</ul>
       </section>
 
       <section class="experience">
-	<h2>Experience</h2>
+        <h2>Experience</h2>
 	{% for job in jobs %}
 	<section class="job">
-          <section class="jobdate">{{ job.time }}</section>
-	  <section class="logo"></section>
+          <section class="jobtime">{{ job.time }}</section>
           <section class="company">{{ job.company }}</section>
-	  <section class="title">{{ job.title }}</section>
+	  <section class="jobtitle">{{ job.title }}</section>
 	  <section class="blurb">{{ job.blurb }}</section>
-	  <section class="description">
+	  <section class="details">
 	    <ul>
               {% for detail in job.details  %}
               <li> {{ detail }} </li>
@@ -43,19 +41,34 @@
       <section class="education">
 	<h2>Education</h2>
 	{% for school in education.schools %}
-        <h3>{{ school.name }}</h3>
-        {{ school.gpa }} GPA
-        {% for degree in school.degrees  %}
-        <h3> {{ degree.degree }} </h3>
-        <ul>
-          {% for detail in degree.details  %}
-          <li>{{ detail }}</li>
-          {% endfor %}
-        </ul>
-        {% endfor %}
+          <section class="school">
+	    <section class="schoolname">{{ school.name }}</section>
+	    <section class="schooltime">{{ school.time }}</section>
+	    <section class="gpa">{{ school.gpa }} GPA</section>
+            <section class="degrees">{{ school.degrees | join(", ") }}
+            <section class="degreedetails">
+              <ul>
+	      {% for detail in school.details  %}
+                <li>{{ detail }}</li>
+              {% endfor %}
+	      </ul>
+	    </section>
+	  </section>
 	{% endfor %}
       </section>
+	  <section class="skills">
+	    <h2>Skills</h2>
+            <!-- Just to get indent like above -->
+	    <section class="skillwrap">
+	      <section class="skilldetails">
+	    <table>
+	    {% for skill in skills %}
+	    <tr><td>{{ skill.level }}:</td><td>{{ skill.skills | join(", ") }}</td></tr>
+	    {% endfor %}
+	    </table>
+          </section>
+        </section>
+      </section>
     </article>
-  </main>
   </body>
 </html>

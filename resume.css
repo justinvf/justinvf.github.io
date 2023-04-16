@@ -1,16 +1,44 @@
 body {
   background-color: #f2f2f2;
+  font-family:"Calibri", sans-serif;
 }
 
 .resume {
+    width: 8in;
+    break-inside: auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap             : 5px;
-
     grid-template-areas:
 	"name contact"
 	"experience experience"
 	"education education"
+	"skills skills";
+}
+
+.experience {
+    grid-area: experience;
+}
+
+
+.name {
+    grid-area: name;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact {
+    grid-area: contact;
+    text-align: right;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul a:link {
+    text-decoration: none;
 }
 
 .experience {
@@ -19,24 +47,29 @@ body {
 
 .job {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: auto;
+    grid-column-gap: 3px;
     grid-template-areas:
-	"jobdate company"
-	"logo title"
-	"logo blurb"
-	"logo description";
+	"time company"
+	"jobtitle blurb"
+	". details";
+    break-inside: avoid;
 }
 
-.jobdate {
-    grid-area: jobdate;
+.time {
+    grid-area: time;
 }
 
 .company {
     grid-area: company;
+    font-size: 20px;
 }
-.role {
-    grid-area: role;
+
+.jobtitle {
+    grid-area: jobtitle;
 }
+
 .blurb {
     grid-area: blurb;
 }
@@ -44,34 +77,56 @@ body {
     grid-area: details;
 }
 
-
-.name {
-    grid-area: name;
-}
-
-.contact {
-    grid-area: contact;
-}
-
-.contact ul {
-    list-style-type: none;
-}
-
-.headshot {
-    grid-area: headshot;
-}
-
-.experience {
-    grid-area: experience;
-}
-
 .education {
     grid-area: education;
 }
 
-.wrapper {
-    padding        : 0;
-    display        : flex;
-    flex-direction : row;
-    justify-content: space-evenly;
+.school {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: auto;
+    grid-column-gap: 3px;
+    grid-template-areas:
+	"schooltime schoolname"
+	"gpa   degrees"
+	".     degreedetails";
+}
+
+.schoolname {
+    grid-area: schoolname;
+    font-size: 20px;
+}
+
+.schooltime {
+    grid-area: schooltime;
+}
+
+.gpa {
+    grid-area: gpa;
+}
+
+.degrees {
+    grid-area: degrees;
+}
+
+.degreedetailss {
+    grid-area: degreedetails;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.skillwrap {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: auto;
+    grid-column-gap: 3px;
+    grid-template-areas:
+	". skilldetails"
+}
+
+.skilldetails {
+    grid-area: skilldetails;
+    grid-column-start: 2;
 }

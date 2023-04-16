@@ -1,5 +1,6 @@
 from jinja2 import Template
 import json
+import mistune
 
 with open('resume.json', 'rt') as f:
     resume_data = json.load(f)
