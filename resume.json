@@ -10,10 +10,9 @@
 	    "title": "Staff Software Engineer",
 	    "blurb": "Tech lead, owning large components of our ML data platform.",
 	    "details": [
-		"Wrote the uploading and processing framework used to index robot log data (text, image, sensors) and do downstream offline processing.",
-		"Lead development on the system that serves robot logs from cloud APIs to our robot visualization tool.",
+		"Created our human annotation infrastructure which drove our computer vision and RL projects. The system collected XX million human annotations.",
+		"Wrote the framework used to index and process a robots text logs and sensor data.",
 		"Worked cross functionally with Robotics at Google to drive org-wide platform adoptions.",
-		"Created our human annotation framework which drove our perception and RL projects. The system collected XX million human annotations.",
 		"Created systems to flexibly create fresh nightly training/evaluation datasets, which were used in multiple ML projects across Alphabet.",
 		"Lead development of the evaluation tools used daily by the perception team to asses model performance.",
 		"Wrote low-level systems code for logging and time synchronization, both on robot and in simulation."
@@ -25,9 +24,9 @@
 	    "title": "Senior Software Engineer",
 	    "blurb": "Tech Lead/Manager leading a small team of engineers and analysts on projects to increase customer happiness.",
 	    "details": [
-		"Led a team of 4 to implement a real-time AI assistant for customer service agents to help them answer customer questions.",
-		"Built a user activity services to detect customer presence for TV ad insertion.",
-		"Owned multiple other data pipelines consumed by analysts across Fiber."
+		"Led a team of 4 to implement a real-time AI assistant that helped our customer service agents efficiently answer customer questions in our call centers.",
+		"Built a user activity services to detect TV viewer presence for ad insertion.",
+		"Owned multiple data pipelines consumed by analysts across Fiber."
 	    ]
 	},
 	{
@@ -36,9 +35,9 @@
 	    "title": "Owner",
 	    "blurb": "Started my company Algorithm Shop where I did contract work across a variety of industries.",
 	    "details": [
-		"Built text classifiers for an online marketplace startup.",
 		"Implemented a database for querying structural and geometric attributes of proteins for a scientific software company.",
 		"Worked in Libya to build out a system for handling sensitive elections data for their 2014 elections on a UN project.",
+		"Built text classifiers for an online marketplace startup.",
 		"Built a proof of concept real-time aggregation framework for a smart-meter company."
 	    ]
 	},
@@ -48,7 +47,7 @@
 	    "title": "Senior Software Engineer",
 	    "blurb": "One of the initial members in the tech team for Obama's 2012 reelection campaign.",
 	    "details": [
-		"Wrote a voter/donor record matching system to merge voters across databases to give a unified view of a voter for modeling, supporting both country-wide merges of all voters as well as a real-time service for single voter lookup.",
+		"Wrote a record matching system to merge voters across databases to give a unified view a voter for modeling. Provided a country-wide merges of all voters as well as a real-time service for single voter lookup.",
 "Core member of \"Project Narwhal\", the campaigns primary organizing API. Created the systems for real-time metric reporting to let us understand the state of our field organizing operation."
 	    ]
 	},
