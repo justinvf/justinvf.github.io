@@ -2,11 +2,10 @@
 <html>
   <head>
     <title>Justin Vincent's Resume</title>
-    <link rel="stylesheet" type="text/css" href="resume.css?cache=nope">
+    <link rel="stylesheet" type="text/css" href="resume.css?cache=nocache659">
   </head>
 
   <body>
-    <main class="wrapper">
     <article class="resume">
 
       <section class="name">
@@ -17,112 +16,103 @@
 	<ul>
 	  <li><a href="mailto:justinvf@gmail.com">justinvf@gmail.com</a></li>
 	  <li>Centerville, OH</li>
-	</ul>
+    	</ul>
       </section>
 
       <section class="experience">
-	<h2>Experience</h2>
+        <h2>Experience</h2>
 	
 	<section class="job">
-          <section class="jobdate">2017 Q3 - Present</section>
-	  <section class="logo"></section>
+          <section class="jobtime">2017 Q3 - Present</section>
           <section class="company">Everyday Robots (Alphabet/X)</section>
-	  <section class="title">Staff Software Engineer</section>
-	  <section class="blurb">Tech lead, owning large components of our ML data platform.</section>
-	  <section class="description">
+	  <section class="jobtitle">Staff Software Engineer</section>
+	  <section class="blurb">Tech Lead, owning large components of our ML data platform.</section>
+	  <section class="details">
 	    <ul>
               
-              <li> Wrote the uploading and processing framework used to index robot log data (text, image, sensors) and do downstream offline processing. </li>
+              <li> Created the human annotation infrastructure behind our computer vision and RL efforts. The system collected XX million human annotations. </li>
               
-              <li> Lead development on the system that serves robot logs from cloud APIs to our robot visualization tool. </li>
+              <li> Created systems to flexibly create training/evaluation datasets for nightly model refreshes. Used in multiple ML projects across Everyday Robots and Alphabet. </li>
               
-              <li> Worked cross functionally with Robotics at Google to drive org-wide platform adoptions. </li>
+              <li> Led development of the evaluation tools used daily by the Perception Team to assess model performance. </li>
               
-              <li> Created our human annotation framework which drove our perception and RL projects. The system collected XX million human annotations. </li>
-              
-              <li> Created systems to flexibly create fresh nightly training/evaluation datasets, which were used in multiple ML projects across Alphabet. </li>
-              
-              <li> Lead development of the evaluation tools used daily by the perception team to asses model performance. </li>
-              
-              <li> Wrote low-level systems code for logging and time synchronization, both on robot and in simulation. </li>
+              <li> Owned the system used to index, process, and serve the large stream of image, sensor, and text data coming from our fleet of robots. </li>
               
             </ul>
 	  </section>
 	</section>
 	
 	<section class="job">
-          <section class="jobdate">2014 Q3 - 2017 Q2</section>
-	  <section class="logo"></section>
+          <section class="jobtime">2014 Q3 - 2017 Q2</section>
           <section class="company">Google Fiber</section>
-	  <section class="title">Senior Software Engineer</section>
-	  <section class="blurb">Tech Lead/Manager leading a small team of engineers and analysts on projects to increase customer happiness.</section>
-	  <section class="description">
+	  <section class="jobtitle">Senior Software Engineer</section>
+	  <section class="blurb">Tech Lead/Manager leading a small team of engineers on projects to increase customer happiness.</section>
+	  <section class="details">
 	    <ul>
               
-              <li> Led a team of 4 to implement a real-time AI assistant for customer service agents to help them answer customer questions. </li>
+              <li> Led a team of 4 to implement a real-time AI assistant that helped our support agents efficiently answer customer questions over the phone. </li>
               
-              <li> Built a user activity services to detect customer presence for TV ad insertion. </li>
+              <li> Productionized and launched our customer churn models. </li>
               
-              <li> Owned multiple other data pipelines consumed by analysts across Fiber. </li>
+              <li> Built a realtime services to detect whether customers were likely actively watching TV. This was relied on for TV ad insertion. </li>
               
             </ul>
 	  </section>
 	</section>
 	
 	<section class="job">
-          <section class="jobdate">2013 Q1 - 2014 Q3</section>
-	  <section class="logo"></section>
+          <section class="jobtime">2013 Q1 - 2014 Q3</section>
           <section class="company">Algorithm Shop</section>
-	  <section class="title">Owner</section>
-	  <section class="blurb">Started my company Algorithm Shop where I did contract work across a variety of industries.</section>
-	  <section class="description">
+	  <section class="jobtitle">Owner</section>
+	  <section class="blurb">Started <a href=http://www.algorithmshop.com>Algorithm Shop</a> where I did contract work across a variety of industries.</section>
+	  <section class="details">
 	    <ul>
               
-              <li> Built text classifiers for an online marketplace startup. </li>
+              <li> Implemented algorithms to query structural and geometric attributes of proteins for a scientific software company. </li>
               
-              <li> Implemented a database for querying structural and geometric attributes of proteins for a scientific software company. </li>
-              
-              <li> Worked in Libya to build out a system for handling sensitive elections data for their 2014 elections on a UN project. </li>
+              <li> Worked in Libya for a UN project to help build a voter id systems for their 2014 elections. </li>
               
               <li> Built a proof of concept real-time aggregation framework for a smart-meter company. </li>
               
+              <li> Built text classifiers for an online marketplace startup. </li>
+              
             </ul>
 	  </section>
 	</section>
 	
 	<section class="job">
-          <section class="jobdate">2011 Q2 - 2012 Q4</section>
-	  <section class="logo"></section>
+          <section class="jobtime">2011 Q2 - 2012 Q4</section>
           <section class="company">Obama For America</section>
-	  <section class="title">Senior Software Engineer</section>
-	  <section class="blurb">One of the initial members in the tech team for Obama's 2012 reelection campaign.</section>
-	  <section class="description">
+	  <section class="jobtitle">Senior Software Engineer</section>
+	  <section class="blurb">One of the initial SWEs in Obama's 2012 reelection campaign.</section>
+	  <section class="details">
 	    <ul>
               
-              <li> Wrote a voter/donor record matching system to merge voters across databases to give a unified view of a voter for modeling, supporting both country-wide merges of all voters as well as a real-time service for single voter lookup. </li>
+              <li> Wrote a voter/donor record matching system to merge identities across databases, which was critical for accurate modeling. I exposed this as a nightly country-wide dataset, as well as provided a service to merge in new records. </li>
               
-              <li> Core member of "Project Narwhal", the campaigns primary organizing API. Created the systems for real-time metric reporting to let us understand the state of our field organizing operation. </li>
+              <li> Core member of <a href=https://www.theatlantic.com/technology/archive/2012/11/when-the-nerds-go-marching-in/265325/>"Project Narwhal"</a>, the campaigns primary organizing API. Created the system for real-time metric aggregation to give roll-ups for our 2.2 million volunteers. </li>
               
             </ul>
 	  </section>
 	</section>
 	
 	<section class="job">
-          <section class="jobdate">2007 Q4 - 2011 Q2</section>
-	  <section class="logo"></section>
+          <section class="jobtime">2007 Q4 - 2011 Q2</section>
           <section class="company">Google</section>
-	  <section class="title">Software Engineer</section>
-	  <section class="blurb">I interned in Google Books. As a full timer I worked on the Google Analytics Backend and AdWords Payment Fraud.</section>
-	  <section class="description">
+	  <section class="jobtitle">Software Engineer</section>
+	  <section class="blurb">I worked on Google Books (intern), Google Analytics, and AdWords Payment Fraud.</section>
+	  <section class="details">
 	    <ul>
               
               <li> Wrote a matching system to surface links between a payment fraudster's closed accounts and their similar looking accounts that were still active. </li>
               
+              <li> Incorporated risk signals into the our Fraud Ops team's account review tools. </li>
+              
               <li> Completed various signal engineering projects within the core "Risk Engine" used to detect payment fraud. </li>
               
-              <li> Wrote testing tools for the Google Analytics Backend team, both for large-scale diff-testing as well as for smaller scale unit testing. </li>
+              <li> Wrote testing frameworks for the Google Analytics Backed team, both for large-scale diff-testing as well as for smaller scale unit testing. </li>
               
-              <li> In Google Books I worked on finding links where one book is quoting another. Listed as a co-inventor on patent US20090055389. </li>
+              <li> In Google Books I worked on finding links where one book is quoting another. Listed as a co-inventor on patent <a href=https://patents.google.com/patent/US20090055389A1/en>US20090055389</a>. </li>
               
             </ul>
 	  </section>
@@ -133,36 +123,46 @@
       <section class="education">
 	<h2>Education</h2>
 	
-        <h3>University of Washington</h3>
-        3.78 GPA
-        
-        <h3> B.S. Computer Science </h3>
-        <ul>
-          
-          <li>Coauthor of a FOCS paper  with James R. Lee</li>
-          
-          <li>Researched particle filter approaches to WiFi based localization with Dieter Fox</li>
-          
-          <li>Took graduate courses in algorithms, complex analysis, robotics, and complexity</li>
-          
-          <li>TA for digital design (hardware), intro programming, and discrete mathematics</li>
-          
-        </ul>
-        
-        <h3> B.A. Mathematics </h3>
-        <ul>
-          
-          <li>Worked on numerical modeling of stochastic processes with Stephen Rhode.</li>
-          
-          <li>Took graduate courses in complex analysis</li>
-          
-          <li>Studied math in Moscow for a semester</li>
-          
-        </ul>
-        
+          <section class="school">
+	    <section class="schoolname">University of Washington</section>
+	    <section class="schooltime">2003-2007</section>
+	    <section class="gpa">3.78 GPA</section>
+            <section class="degrees">B.S. Computer Science, B.A. Mathematics
+            <section class="degreedetails">
+              <ul>
+	      
+                <li>Coauthor of a <a href=https://dl.acm.org/doi/abs/10.1109/FOCS.2008.79>FOCS paper</a> with James R. Lee.</li>
+              
+                <li>Researched particle filter approaches to WiFi based localization with Dieter Fox</li>
+              
+                <li>Worked on numerical modeling of stochastic processes with Stephen Rhode.</li>
+              
+                <li>Took graduate courses in algorithms, complex analysis, robotics, complexity, and complex analysis.</li>
+              
+                <li>TA for digital design (hardware), intro programming, and discrete mathematics</li>
+              
+                <li>Studied abroad in Italy (writing), Russia (math), and Spain (language).</li>
+              
+	      </ul>
+	    </section>
+	  </section>
 	
       </section>
+	  <section class="skills">
+	    <h2>Skills</h2>
+            <!-- Just to get indent like above -->
+	    <section class="skillwrap">
+	      <section class="skilldetails">
+	    <table>
+	    
+	    <tr><td>Currently Productive:</td><td>C++, Python, SQL</td></tr>
+	    
+	    <tr><td>Previously Productive:</td><td>Tensorflow, Java, Golang, Scala</td></tr>
+	    
+	    </table>
+          </section>
+        </section>
+      </section>
     </article>
-  </main>
   </body>
 </html>

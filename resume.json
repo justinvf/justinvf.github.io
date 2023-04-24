@@ -8,87 +8,84 @@
 	    "company": "Everyday Robots (Alphabet/X)",
 	    "time": "2017 Q3 - Present",
 	    "title": "Staff Software Engineer",
-	    "blurb": "Tech lead, owning large components of our ML data platform.",
+	    "blurb": "Tech Lead, owning large components of our ML data platform.",
 	    "details": [
-		"Created our human annotation infrastructure which drove our computer vision and RL projects. The system collected XX million human annotations.",
-		"Wrote the framework used to index and process a robots text logs and sensor data.",
-		"Worked cross functionally with Robotics at Google to drive org-wide platform adoptions.",
-		"Created systems to flexibly create fresh nightly training/evaluation datasets, which were used in multiple ML projects across Alphabet.",
-		"Lead development of the evaluation tools used daily by the perception team to asses model performance.",
-		"Wrote low-level systems code for logging and time synchronization, both on robot and in simulation."
+		"Created the human annotation infrastructure behind our computer vision and RL efforts. The system collected XX million human annotations.",
+		"Created systems to flexibly create training/evaluation datasets for nightly model refreshes. Used in multiple ML projects across Everyday Robots and Alphabet.",
+		"Led development of the evaluation tools used daily by the Perception Team to assess model performance.",
+		"Owned the system used to index, process, and serve the large stream of image, sensor, and text data coming from our fleet of robots."
 	    ]
 	},
 	{
 	    "company": "Google Fiber",
 	    "time": "2014 Q3 - 2017 Q2",
 	    "title": "Senior Software Engineer",
-	    "blurb": "Tech Lead/Manager leading a small team of engineers and analysts on projects to increase customer happiness.",
+	    "blurb": "Tech Lead/Manager leading a small team of engineers on projects to increase customer happiness.",
 	    "details": [
-		"Led a team of 4 to implement a real-time AI assistant that helped our customer service agents efficiently answer customer questions in our call centers.",
-		"Built a user activity services to detect TV viewer presence for ad insertion.",
-		"Owned multiple data pipelines consumed by analysts across Fiber."
+		"Led a team of 4 to implement a real-time AI assistant that helped our support agents efficiently answer customer questions over the phone.",
+		"Productionized and launched our customer churn models.",
+		"Built a realtime services to detect whether customers were likely actively watching TV. This was relied on for TV ad insertion."
 	    ]
 	},
 	{
 	    "company": "Algorithm Shop",
 	    "time": "2013 Q1 - 2014 Q3",
 	    "title": "Owner",
-	    "blurb": "Started my company Algorithm Shop where I did contract work across a variety of industries.",
+	    "blurb": "Started <a href=http://www.algorithmshop.com>Algorithm Shop</a> where I did contract work across a variety of industries.",
 	    "details": [
-		"Implemented a database for querying structural and geometric attributes of proteins for a scientific software company.",
-		"Worked in Libya to build out a system for handling sensitive elections data for their 2014 elections on a UN project.",
-		"Built text classifiers for an online marketplace startup.",
-		"Built a proof of concept real-time aggregation framework for a smart-meter company."
+		"Implemented algorithms to query structural and geometric attributes of proteins for a scientific software company.",
+		"Worked in Libya for a UN project to help build a voter id systems for their 2014 elections.",
+		"Built a proof of concept real-time aggregation framework for a smart-meter company.",
+		"Built text classifiers for an online marketplace startup."
 	    ]
 	},
 	{
 	    "company": "Obama For America",
 	    "time": "2011 Q2 - 2012 Q4",
 	    "title": "Senior Software Engineer",
-	    "blurb": "One of the initial members in the tech team for Obama's 2012 reelection campaign.",
+	    "blurb": "One of the initial SWEs in Obama's 2012 reelection campaign.",
 	    "details": [
-		"Wrote a record matching system to merge voters across databases to give a unified view a voter for modeling. Provided a country-wide merges of all voters as well as a real-time service for single voter lookup.",
-"Core member of \"Project Narwhal\", the campaigns primary organizing API. Created the systems for real-time metric reporting to let us understand the state of our field organizing operation."
+		"Wrote a voter/donor record matching system to merge identities across databases, which was critical for accurate modeling. I exposed this as a nightly country-wide dataset, as well as provided a service to merge in new records.",
+		"Core member of <a href=https://www.theatlantic.com/technology/archive/2012/11/when-the-nerds-go-marching-in/265325/>\"Project Narwhal\"</a>, the campaigns primary organizing API. Created the system for real-time metric aggregation to give roll-ups for our 2.2 million volunteers."
 	    ]
 	},
 	{
 	    "company": "Google",
 	    "time": "2007 Q4 - 2011 Q2",
 	    "title": "Software Engineer",
-	    "blurb": "I interned in Google Books. As a full timer I worked on the Google Analytics Backend and AdWords Payment Fraud.",
+	    "blurb": "I worked on Google Books (intern), Google Analytics, and AdWords Payment Fraud.",
 	    "details": [
 		"Wrote a matching system to surface links between a payment fraudster's closed accounts and their similar looking accounts that were still active.",
+		"Incorporated risk signals into the our Fraud Ops team's account review tools.",
 		"Completed various signal engineering projects within the core \"Risk Engine\" used to detect payment fraud.",
-		"Wrote testing tools for the Google Analytics Backend team, both for large-scale diff-testing as well as for smaller scale unit testing.",
-		"In Google Books I worked on finding links where one book is quoting another. Listed as a co-inventor on patent US20090055389."
+		"Wrote testing frameworks for the Google Analytics Backed team, both for large-scale diff-testing as well as for smaller scale unit testing.",
+		"In Google Books I worked on finding links where one book is quoting another. Listed as a co-inventor on patent <a href=https://patents.google.com/patent/US20090055389A1/en>US20090055389</a>."
 	    ]
 	}
     ],
     "education": {
 	"schools": [
 	    {
-	    "name": "University of Washington",
-            "gpa": 3.78,
-	    "degrees": [
-		{
-		    "degree": "B.S. Computer Science",
-		    "details":  [
-			"Coauthor of a FOCS paper  with James R. Lee",
-			"Researched particle filter approaches to WiFi based localization with Dieter Fox",
-			"Took graduate courses in algorithms, complex analysis, robotics, and complexity",
-			"TA for digital design (hardware), intro programming, and discrete mathematics"
-		    ]
-		},
-		{
-		    "degree": "B.A. Mathematics",
-		    "details": [
-			"Worked on numerical modeling of stochastic processes with Stephen Rhode.",
-			"Took graduate courses in complex analysis",
-			"Studied math in Moscow for a semester"
-		    ]
-		}
-	    ]
+		"name": "University of Washington",
+		"gpa": 3.78,
+		"time": "2003-2007",
+		"degrees": ["B.S. Computer Science",
+			    "B.A. Mathematics"],
+		"details":  [
+		    "Coauthor of a <a href=https://dl.acm.org/doi/abs/10.1109/FOCS.2008.79>FOCS paper</a> with James R. Lee.",
+		    "Researched particle filter approaches to WiFi based localization with Dieter Fox",
+		    "Worked on numerical modeling of stochastic processes with Stephen Rhode.",
+		    "Took graduate courses in algorithms, complex analysis, robotics, complexity, and complex analysis.",
+		    "TA for digital design (hardware), intro programming, and discrete mathematics",
+		    "Studied abroad in Italy (writing), Russia (math), and Spain (language)."
+		]
 	    }
 	]
-    }
+    },
+    "skills": [
+	{"level": "Currently Productive",
+	 "skills": ["C++", "Python", "SQL"]},
+	{"level": "Previously Productive",
+	 "skills": ["Tensorflow", "Java", "Golang", "Scala"]}
+    ]
 }
