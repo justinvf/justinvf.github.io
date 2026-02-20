@@ -26,6 +26,7 @@
   const deleteModal = document.getElementById('deleteModal');
   const deleteCancelBtn = document.getElementById('deleteCancelBtn');
   const deleteConfirmBtn = document.getElementById('deleteConfirmBtn');
+  const copyBtn = document.getElementById('copyBtn');
 
   function load() {
     try {
@@ -145,16 +146,6 @@
       titleSpan.appendChild(t);
       titleSpan.appendChild(preview);
 
-      const copyBtnEl = document.createElement('button');
-      copyBtnEl.className = 'copy-btn';
-      copyBtnEl.appendChild(icon('clipboard'));
-      copyBtnEl.addEventListener('click', function(e) {
-        e.stopPropagation();
-        navigator.clipboard.writeText(s.text).then(function() {
-          showToast('Copied');
-        });
-      });
-
       const del = document.createElement('button');
       del.className = 'delete-btn';
       del.appendChild(icon('trash'));
@@ -165,7 +156,6 @@
       });
 
       div.appendChild(titleSpan);
-      div.appendChild(copyBtnEl);
       div.appendChild(del);
       div.addEventListener('click', function() { switchTo(s.id); });
       snippetList.appendChild(div);
@@ -226,6 +216,17 @@
   newBtn.appendChild(icon('file-plus'));
   closeDrawer.appendChild(icon('x'));
   blurToggle.appendChild(icon('eye'));
+  copyBtn.appendChild(icon('clipboard'));
+
+  copyBtn.addEventListener('click', function() {
+    navigator.clipboard.writeText(editor.value).then(function() {
+      showToast('Copied');
+    }).catch(function() {
+      editor.select();
+      document.execCommand('copy');
+      showToast('Copied');
+    });
+  });
 
   // --- Service Worker ---
   if ('serviceWorker' in navigator) {

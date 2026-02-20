@@ -156,24 +156,6 @@
     align-items: center;
   }
   .snippet-item .delete-btn:active { color: var(--accent); }
-  .snippet-item .copy-btn {
-    background: none;
-    border: none;
-    color: var(--text-dim);
-    cursor: pointer;
-    padding: 4px 8px;
-    flex-shrink: 0;
-    opacity: 0;
-    transition: opacity 0.15s;
-    display: inline-flex;
-    align-items: center;
-  }
-  .snippet-item:hover .copy-btn { opacity: 1; }
-  .snippet-item .copy-btn:active { color: var(--accent); }
-  @media (hover: none) {
-    .snippet-item .copy-btn { opacity: 1; }
-  }
-
   .toast {
     position: fixed;
     bottom: 24px;
