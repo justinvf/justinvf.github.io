@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#1a1a2e"/>
+  <!-- Serif T behind the curve -->
+  <text x="256" y="270" font-family="Times New Roman, Times, serif" font-weight="bold" font-size="280" fill="white" opacity="0.85" text-anchor="middle" dominant-baseline="central">T</text>
+  <!-- Gaussian bell curve - filled shape -->
+  <path d="M40,390 L40,378.8 L54.9,373.5 L69.8,366.5 L84.7,357.3 L99.6,345.8 L114.5,331.9 L129.4,315.7 L144.3,297.4 L159.2,277.9 L174.1,257.8 L189,238.4 L203.9,220.9 L218.8,206.4 L233.7,196.1 L248.6,190.7 L263.4,190.7 L278.3,196.1 L293.2,206.4 L308.1,220.9 L323,238.4 L337.9,257.8 L352.8,277.9 L367.7,297.4 L382.6,315.7 L397.5,331.9 L412.4,345.8 L427.3,357.3 L442.2,366.5 L457.1,373.5 L472,378.8 L472,390 L472,410 L40,410 Z" fill="white" fill-opacity="0.2"/>
+  <!-- Gaussian bell curve - stroke on top -->
+  <path d="M40,378.8 L54.9,373.5 L69.8,366.5 L84.7,357.3 L99.6,345.8 L114.5,331.9 L129.4,315.7 L144.3,297.4 L159.2,277.9 L174.1,257.8 L189,238.4 L203.9,220.9 L218.8,206.4 L233.7,196.1 L248.6,190.7 L263.4,190.7 L278.3,196.1 L293.2,206.4 L308.1,220.9 L323,238.4 L337.9,257.8 L352.8,277.9 L367.7,297.4 L382.6,315.7 L397.5,331.9 L412.4,345.8 L427.3,357.3 L442.2,366.5 L457.1,373.5 L472,378.8" fill="none" stroke="white" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+</svg>
