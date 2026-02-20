@@ -3,7 +3,9 @@ var PRECACHE_URLS = [
   './',
   './index.html',
   './app.js',
-  './style.css'
+  './style.css',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', function(event) {
